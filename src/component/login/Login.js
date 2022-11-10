@@ -1,7 +1,6 @@
 import axios from 'axios';
 import React from 'react'
 import toast from 'react-hot-toast';
-import { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import "./login.css"
 
@@ -16,7 +15,7 @@ const Login = ({ setToggle }) => {
 		}
 		console.log(user)
 		try{
-			await axios.post('/api/authen/login',user)
+			await axios.post('https://thang-todo.herokuapp.com/api/authen/login',user)
 			navigate('/');			
 		}catch(err){
 			toast.error("Login Fail")

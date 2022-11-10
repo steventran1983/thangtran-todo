@@ -16,7 +16,7 @@ const Register = ({ setToggle }) => {
 
     console.log(user);
     try {
-      await axios.post("/api/authen/register", user);
+      await axios.post("https://thang-todo.herokuapp.com/api/authen/register", user);
       toast.success("Register successfully");
       setToggle(true);
 
