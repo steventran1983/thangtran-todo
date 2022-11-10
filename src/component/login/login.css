@@ -1,0 +1,79 @@
+.login-container,
+.register-container {
+	background-color: #fff;
+	border-radius: 1.6rem;
+	width: 50%;
+}
+
+.login-form,
+.register-form {
+	padding: 3.2rem;
+}
+
+.login-title,
+.register-title {
+	margin: 3.2rem auto;
+	font-size: 2.4rem;
+	text-align: center;
+	color: #000;
+	padding-top: 3.2rem;
+}
+
+.login-label-name {
+	font-size: 1.6rem;
+	padding-bottom: 1.6rem;
+	padding-top: 1.6rem;
+	padding-left: 0.8rem;
+	color: #000;
+}
+
+.form-input {
+	width: 100%;
+	padding: 1.6rem 1.6rem;
+	font-size: 1.6rem;
+	margin-bottom: 1.6rem;
+	outline: none;
+	border-radius: 0.8rem;
+	border-color: grey 1px solid;
+}
+
+.login-switch {
+	text-align: center;
+	padding: 1.6rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	column-gap: 1.6rem;
+	margin-bottom: 1.6rem;
+}
+
+.form-submit,
+.login-switch-button {
+	font-size: 1.6rem;
+	padding: 1.6rem 3.2rem;
+	background-image: linear-gradient(45deg, #fc5c7d, #6a82fb);
+	color: #fff;
+	font-weight: --font-semi-bold;
+	border-radius: 0.8rem;
+	margin-top: 1.6rem;
+	margin-bottom: 1.6rem;
+}
+.form-submit:hover,
+.login-switch-button:hover {
+	background-image: linear-gradient(90deg, #fc5c7d, #6a82fb);
+}
+
+.login-description {
+	font-size: 1.6rem;
+	color: #000;
+}
+
+.button-switch {
+	display: flex;
+	justify-content: center;
+	column-gap: var(--mb-1);
+}
+
+input {
+	border-width: 1px !important;
+}

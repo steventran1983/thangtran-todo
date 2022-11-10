@@ -1,0 +1,30 @@
+.editprofile{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.editprofile-container{
+  width: 50%;
+  border: solid 1px red;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+}
+
+.edit-label{
+  display: block;
+}
+
+
+.editprofile-title{
+  font-size: 3.2rem;
+  margin:3.2rem auto;
+  padding:1.6rem 
+}
+
+.editprofile-form{
+  padding: 1.6rem;
+}
+
