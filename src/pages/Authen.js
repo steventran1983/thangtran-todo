@@ -5,10 +5,6 @@ import Login from "../component/login/Login";
 import "./authen.css"
 const Authen = () => {
   const [toggle, setToggle] = useState(true);
-  const handleToogle = () => {
-    setToggle(false);
-    console.log("This just for fun");
-  };
 
   return (
 
