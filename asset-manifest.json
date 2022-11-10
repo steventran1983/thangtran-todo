@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/thangtran-todo/static/css/main.b1467d34.css",
-    "main.js": "/thangtran-todo/static/js/main.f7738e57.js",
+    "main.js": "/thangtran-todo/static/js/main.9adad5ae.js",
     "static/js/787.cda612ba.chunk.js": "/thangtran-todo/static/js/787.cda612ba.chunk.js",
     "index.html": "/thangtran-todo/index.html",
     "main.b1467d34.css.map": "/thangtran-todo/static/css/main.b1467d34.css.map",
-    "main.f7738e57.js.map": "/thangtran-todo/static/js/main.f7738e57.js.map",
+    "main.9adad5ae.js.map": "/thangtran-todo/static/js/main.9adad5ae.js.map",
     "787.cda612ba.chunk.js.map": "/thangtran-todo/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b1467d34.css",
-    "static/js/main.f7738e57.js"
+    "static/js/main.9adad5ae.js"
   ]
 }
