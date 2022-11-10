@@ -10,7 +10,7 @@ export default () => {
       const res = await axios.get(
         "https://thang-todo.herokuapp.com/api/authen/isLoggedIn"
       );
-      console.log("Thang Cong Tu 66666666666666666666666666");
+      console.log("Thang Cong Tu 989898798798798789798789787987897");
       console.log(res.data);
       return res.data;
     } catch (err) {
