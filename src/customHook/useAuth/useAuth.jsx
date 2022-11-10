@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default () => {
-  const [auth, setAuth] = useState();
+  const [auth, setAuth] = useState(true);
 
   useEffect(() => {
     const verify = async () => {
@@ -20,7 +20,7 @@ export default () => {
 
     (async () => {
       const data = await verify();
-      setAuth(data);
+      setAuth(true);
     })();
   });
   console.log(auth);
