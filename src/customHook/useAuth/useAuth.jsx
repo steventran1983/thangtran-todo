@@ -11,16 +11,17 @@ export default () => {
         const res = await axios.get(
           "https://thang-todo.herokuapp.com/api/authen/isLoggedIn"
         );
-        console.log("Thang Cong Tu 5555555555");
+        console.log("Thang Cong Tu 55555555555555555555");
         return res.data;
       } catch (err) {
         return false;
       }
     };
 
-    const data = verify();
-    console.log(`Thang Tran day ${data}`);
-    setAuth(DataTransfer);
+    (async () => {
+      const data = await verify();
+      setAuth(true);
+    })();
   });
   console.log(auth);
   return { auth };
