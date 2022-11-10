@@ -9,7 +9,6 @@ const PrivateRoute = () => {
 	if (auth===undefined) return 'Loading...'
 
   return auth === true ? <Outlet/> : <Navigate to="/auth"/>
-  
 }
 
 export default PrivateRoute

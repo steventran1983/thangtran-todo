@@ -20,7 +20,7 @@ function App() {
 				/>
 				<Routes>
 					<Route element={<PrivateRoute />}>
-						<Route path="/" element={<Home />} />
+						<Route path="/home" element={<Home />} />
 						<Route path="/edit-profile" element={<EditProfile />} />
 					</Route>
 					<Route path="/auth" element={<Authen />} />
